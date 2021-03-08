@@ -10,8 +10,8 @@
         
     <header>
         <div class="menu__section">
-            <a href="image.html" class="menu__link">Image</a>
-            <a href="advanced.html" class="menu__link" >Advanced</a>
+            <a href="image.html" class="menu__link">Image Search</a>
+            <a href="advanced.html" class="menu__link" >Advanced Search</a>
         </div>
     </header>
 
@@ -20,10 +20,13 @@
             <img class="container__logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
 
             <form action="https://google.com/search">
-                <input class="container__search" type="text" name="q">
+                <div class="container__search">
+                    <input class="container__search__text" type="text" name="q" >
+                    <button><img class="container__search__icon" src="icon-search.png" alt="search" /></button>
+                </div>
                 <div class="form__button">
                     <input class="button" type="submit" value="Google Search">
-                    <input class="button" value="I'm Feeling Lucky"  type="submit" data-ved="0ahUKEwiNm6S0jYLrAhXslnIEHYv2B30QnRsIDg">
+                    <input type="submit" name="btnI" value="I am Feeling Lucky" class="button">
                 </div>
                 <div class="container__offer" >
                     Google offered in: <a href="#"> English</a>
