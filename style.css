@@ -23,6 +23,17 @@
     padding-right: 20px;
     align-items:center;
 }
+.menu__section__advanced {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#f1f1f1;
+    height:60px;
+}
+.menu__advanced__logo {
+    padding-left: 10px;
+    height: 30px;
+}
 .menu__link {
     font-size: 12px;
     padding: 12px 8px;
@@ -105,4 +116,42 @@
 .footer__links a {
     margin: 10px;
     font-size:14px;
+}
+.advanced__title {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.advanced__title label {
+    margin-left: 20px;
+    color:#d93025;
+}
+.advanced__form {    
+    width: 350px;
+    margin-left: 20px;
+    color: #333;
+}
+.find_pages {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.advanced__input {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.button__advanced {
+    display: flex;
+    justify-content: flex-end;
+}
+.button__advanced__blue {
+    background-color: #3079ed;
+    color: #fff;
+    border: 1px solid #3079ed;
+    padding: 7px;
+    margin-top: 10px;
 }
